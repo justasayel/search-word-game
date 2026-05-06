@@ -1,0 +1,49 @@
+{
+  "entities": {
+    "Game": {
+      "title": "Game",
+      "description": "The main game state for the Interrupted Words competition.",
+      "type": "object",
+      "properties": {
+        "status": { "type": "string", "enum": ["lobby", "playing", "finished"] },
+        "currentQuestionIndex": { "type": "integer" },
+        "questions": {
+          "type": "array",
+          "items": { "$ref": "#/entities/Question" }
+        },
+        "redTeam": { "$ref": "#/entities/TeamState" },
+        "blueTeam": { "$ref": "#/entities/TeamState" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["status", "currentQuestionIndex", "redTeam", "blueTeam"]
+    },
+    "TeamState": {
+      "title": "Team State",
+      "description": "Progress and score of a specific team.",
+      "type": "object",
+      "properties": {
+        "score": { "type": "integer" },
+        "currentProgress": { "type": "array", "items": { "type": "string" } },
+        "solved": { "type": "boolean" },
+        "lastSolvedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["score", "currentProgress", "solved"]
+    },
+    "Question": {
+      "title": "Question",
+      "description": "A quiz question and its answer.",
+      "type": "object",
+      "properties": {
+        "text": { "type": "string" },
+        "answer": { "type": "string" }
+      },
+      "required": ["text", "answer"]
+    }
+  },
+  "firestore": {
+    "/games/{gameId}": {
+      "schema": "Game",
+      "description": "The active game sessions."
+    }
+  }
+}
