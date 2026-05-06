@@ -29,8 +29,8 @@ The Host view is a centralized command center designed for large-screen projecti
 
 ### 2. Red Unit / Blue Unit (Tactical Interfaces)
 <div style="display: flex; gap: 10px;">
-  <img src="red_team.png" alt="Red Team Terminal" width="45%" />
-  <img src="blue_team.png" alt="Blue Team Terminal" width="45%" />
+  <img src="redteam.png" alt="Red Team Terminal" width="45%" />
+  <img src="blue team.png" alt="Blue Team Terminal" width="45%" />
 </div>
 *Mobile-optimized terminals for unit participants.*
 
@@ -40,7 +40,7 @@ Student devices transform into specialized tactical terminals once they scan int
 - **Tactical Keyboard:** A full A-Z keyboard for letter input. Correct guesses reveal the letter; incorrect guesses trigger a visual "shake" feedback.
 
 ### 3. Content Configuration (Edit System)
-![Content Editor](edit_content.png)
+![Content Editor](editcontent.png)
 *The modular input system for custom simulation data.*
 
 The Host can customize the academic content to fit any subject matter.
