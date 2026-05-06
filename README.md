@@ -17,27 +17,34 @@ Stratagem is a high-stakes, real-time classroom competition interface designed f
 ---
 
 ## Interface Descriptions
-[dashboard.png]
+
 ### 1. Dashboard Host (The Master Terminal)
+![Dashboard Host Interface](dashboard.png)
+*The centralized command center for game orchestration.*
+
 The Host view is a centralized command center designed for large-screen projection. 
 - **Balanced Scoreboard:** A dual-sided header showing real-time scores for Red and Blue units with bold, geometric typography.
 - **Operations Sidebar:** Contains controls to "Initialize" the game, move to the "Next Step," or perform a "Factory Reset."
 - **Game Stream:** A real-time monitoring area where the Host can see exactly which letters each team has uncovered as they type.
-- **Main Display:** 
-    - **Lobby Phase:** Displays large, high-contrast QR codes for students to scan and join their respective units.
-    - **Simulation Phase:** Displays the current technical clue in a large "Question Card" and shows a side-by-side comparison of team progress in a split-screen layout.
 
-### 2. Red Team / Blue Team (Unit Interfaces)
+### 2. Red Unit / Blue Unit (Tactical Interfaces)
+<div style="display: flex; gap: 10px;">
+  <img src="red_team.png" alt="Red Team Terminal" width="45%" />
+  <img src="blue_team.png" alt="Blue Team Terminal" width="45%" />
+</div>
+*Mobile-optimized terminals for unit participants.*
+
 Student devices transform into specialized tactical terminals once they scan into a team.
 - **Active Unit Status:** Clear color-coded feedback (Red or Blue) ensures every student knows which unit they represent.
 - **The Word Matrix:** A series of underscore blocks that fill in with bold letters as the team correctly identifies characters.
 - **Tactical Keyboard:** A full A-Z keyboard for letter input. Correct guesses reveal the letter; incorrect guesses trigger a visual "shake" feedback.
-- **Intelligence Feed:** A footer showing the current "Unit Score" and the "Opposition Score" to drive competitive urgency.
 
-### 3. Edit Content (Content Editor)
+### 3. Content Configuration (Edit System)
+![Content Editor](edit_content.png)
+*The modular input system for custom simulation data.*
+
 The Host can customize the academic content to fit any subject matter.
 - **Study Content Editor:** A modal accessible from the host sidebar.
-- **Clue Configuration:** Allows the host to write custom "Question / Clue" text for each round.
 - **Secret Answer Entry:** Define the target word (automatically sanitized to uppercase/A-Z).
 - **Sequence Management:** Add, remove, or reorder questions to build a custom simulation "deck."
 
