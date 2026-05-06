@@ -7,7 +7,7 @@ Stratagem is a high-stakes, real-time classroom competition interface designed f
 **Objective:** Be the first team to uncover the "Secret Answer" for each technical clue provided by the Host.
 
 **How it works:**
-1. **The Briefing:** The Host (Teacher) initializes the simulation from the Master Terminal.
+1. **The Briefing:** The Host initializes the simulation from the Master Terminal.
 2. **The Sync:** Students join either the **Red Unit** or **Blue Unit** by scanning a unique QR code displayed on the main screen.
 3. **The Race:** A technical clue appears on the screen. Teams must use their collective knowledge to identify the missing word.
 4. **Validation:** Team members tap letters on their individual devices to uncover the word. If a team member taps a correct letter, it reveals for the entire team in real-time.
