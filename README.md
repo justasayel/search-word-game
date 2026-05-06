@@ -1,5 +1,5 @@
 # Stratagem: Performance Simulation
-
+Buliding with @remasalshehri
 Stratagem is a high-stakes, real-time classroom competition interface designed for technical unit simulations. It transforms traditional quizzes into a fast-paced "word-guessing" race where teams compete to validate system components based on technical clues.
 
 ## The Activity: Strategic Component Validation
