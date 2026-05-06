@@ -17,7 +17,7 @@ Stratagem is a high-stakes, real-time classroom competition interface designed f
 ---
 
 ## Interface Descriptions
-
+[dashboard.png]
 ### 1. Dashboard Host (The Master Terminal)
 The Host view is a centralized command center designed for large-screen projection. 
 - **Balanced Scoreboard:** A dual-sided header showing real-time scores for Red and Blue units with bold, geometric typography.
